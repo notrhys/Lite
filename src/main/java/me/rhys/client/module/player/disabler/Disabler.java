@@ -14,7 +14,8 @@ public class Disabler extends Module {
                 new TransactionCancel("TransactionCancel", this),
                 new TransactionKeepAliveCancel("C0F&C00-Cancel", this),
                 new C0C("C0C", this),
-                new NullPlace("NullPlace", this)
+                new NullPlace("NullPlace", this),
+                new Ghostly("Ghostly", this)
         );
     }
 }
